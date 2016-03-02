@@ -1,2 +1,0 @@
-echo"# INT222"
-INTERNET
