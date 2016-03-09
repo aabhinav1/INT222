@@ -1,0 +1,79 @@
+<<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>INT222</title>
+    <script>
+      var  e1="", e2="", e3="", e4="", e5="", e6="", e7="", e8="", e9="";
+    // Your code goes here
+	//2
+	var e1=prompt("Please Enter your first name in your lower case");
+	
+	//3
+	var ex= e1.substr(0,1);
+	var ex1= ex.toUpperCase();
+	//window.alert("ex1");
+	//document.write(ex1);
+	
+	//4
+	var e2=prompt("Please Enter the integer between 1 and 9 inclusively");
+	
+	//5
+    var e3 = new Array();
+	e3=prompt("Enter five values separted by commas");
+	
+	//6
+	var e4 = new Array();
+	e4=prompt("Enter three colors seperated by commas");
+	
+	//7
+	var e6= e3.split(",");
+	
+	//8
+	var e7= e4.split(",");
+	
+	//9
+	for(var i=1; i<13; i++){
+	
+		var j=i*e2;
+		//document.write(e2     +  ' *  ' +   i   + '  = '  +       j    +  '<br />');
+		
+		
+		document.write( '<table>' + '<tr>'    + '<td>'   +         e2    +    '</td>'  +   '<td>'   +      ' *  ' +      '</td>' +   '<td>' + i   +
+		'</td>' + '<td>'  +  '  = '  +   '</td>' +    '<td>' +      j  +  '</td>'  +  '</tr>' + '</table>');
+		
+	};
+	
+	//10
+	
+	var e8=0;
+	
+	for( var k=0; k<e6.length; k++){
+	
+		e8 += parseInt(e6[k]);
+	};
+	alert(e8);	
+				
+	
+	
+	
+	
+	//11
+	var e9="";
+	for(var a=0; a<e7.length; a++){
+		
+		//alert(e7[a] + '\n');
+		e9 +=e7[a] + '\n';
+	
+	};
+	alert(e9);
+	
+	
+	
+	
+	
+  </script>
+ </head>
+ <body>
+ </body>
+</html>
