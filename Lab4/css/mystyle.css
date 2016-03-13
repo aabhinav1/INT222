@@ -1,0 +1,164 @@
+.body{
+	background-color : #f2f2f2;
+}
+
+.form{
+	border:1px solid black;
+	margin:4px;
+}
+
+.div1{
+	float:left;
+	width:20%;
+	text-align: center;
+	
+
+}
+
+.sec{
+	float:left;
+	width:40%;
+	border: 1px solid black;
+	margin:7px;
+	
+}
+
+.div2{
+	float: right;
+	width:38%;
+	border: 1px solid black;
+	margin:3px;
+	margin-top:7px;
+}
+
+.a2{
+	border:1px;
+
+}
+
+.p{
+	/*text-align : center; */
+	color : #0086b3;
+	font-size : 25px;
+	border-bottom: solid red 2px;
+}
+
+.hline{
+	background-color : red;
+	height: 4px;
+}
+
+.table{
+	border : 2px solid black;
+}
+
+.table2{
+	text-align:center;
+	margin-left: 75px;
+	
+}
+
+.td{
+	border:1px solid black;
+
+}
+
+
+
+.place{
+    border : 1px solid black; 
+	background-color : #3366ff;
+	margin-bottom:5px;
+	
+}
+
+.leg{
+	border : 2px solid red;
+	background-color : green;
+	
+
+
+}
+
+.img{
+	text-align: center;
+
+
+}
+
+.img2{
+	margin: 30px;
+	width:250px;
+	height:242px;
+
+
+}
+
+.foot{
+	text-align:center;
+	background-color:black;
+	clear:both;
+	padding:2px;
+	color: white;
+	
+}
+
+.topp1{
+	float:left;
+
+}
+
+.topp2{
+	 float:right;
+	 
+}
+
+.f1{
+	margin:15px;
+}
+
+.f2{
+	margin-bottom:15px;
+	margin-left:15px;
+	margin-right:15px;
+
+}
+
+.f11{
+	margin: 15px 15px 3px 15px;
+
+}
+
+.te{
+	margin-top:2px;
+
+}
+
+.inf{
+	margin-left:46px;
+}
+
+.inf2{
+	margin-left:16px;
+}
+
+.inf3{
+	margin-left:4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
