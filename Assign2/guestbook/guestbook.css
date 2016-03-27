@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #00ff00;
+}
+
+.divi3{
+	clear:both;
+	background-color: black;
+	color:white;
+	text-align:center;
+
+}
+
+.gu1{
+	margin-left:75px;
+}
+.gu2{
+	margin-left:73px;
+}
+
+.gu3{
+	margin-left:86px;
+}
+
+.gu4{
+	margin-left:50px;
+}
+
+.gu5{
+	margin-left:3px;
+}
+
+.gu6{
+	margin-left:3px;
+}
+
+.gu7{
+	margin-left:40px;
+}

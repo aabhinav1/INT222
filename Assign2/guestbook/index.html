@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+	<meta charset="UTF-8" />
+	<title>INT222_161e01 - assign2</title>
+	 <link rel="stylesheet" href="normalize.css"    type="text/css" media="screen" /> 
+     <link rel="stylesheet" href="guestbook.css"     type="text/css" media="screen" />
+	<link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-02/guest.css"  type="text/css" /> 
+    <script src="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-02/guest.js" type="text/javascript"></script>
+ </head>
+ <body>
+	<ul>
+  <li><a href="https://zenit.senecac.on.ca/~int222_161e01/">My Zenit Account</a></li>
+  <li><a href="../index.html">Home</a></li>
+  <li><a href="../gallery.html">Photo gallery</a></li>
+  <li><a href="../video.html">Video</a></li>
+  <li><a href="../audio.html">Audio</a></li>
+  <li><a href="../html5.html">HTML5</a></li>
+  <li><a href="../tables.html">Tables With CSS</a></li>
+  <li><a href="../guestbook/index.html">Guestbook</a></li>
+  <li><a href="../css/sitecss.css"> CSS used</a></li>
+  <li><a href="../extra/index.html">Extra</a></li>
+  </ul>
+  
+	<form action="https://zenit.senecac.on.ca/~emile.ohan/cgi-bin/guestbook.cgi" method="post">
+	<a href="javascript:unhide('on');">View Guest Book</a> / <a href="javascript:unhide('off');">Hide Guest Book</a><br />
+		
+		Name:<input class="gu1" type="text" size="45" required name="guest" id="guest" /><br />
+		E-mail:<input class="gu2" type="text" size="60" required name="email" id="email" /><br />
+		City:<input class="gu3" type="text" size="35" required name="city" id="city" /><br />
+		Province:<select class="gu4" required name="province" id="province">
+			<option value="">choose</option>
+			<option value="Alberta">Alberta</option>
+            <option value="British Columbia">British columbia</option>
+            <option value="Manitoba">Manitoba</option>
+            <option value="New Brunswick">New Brunswick</option>
+			<option value="Newfoundland & Labrador">Newfoundland & Labrador</option>
+            <option value="Nova scotia">Nova scotia</option>
+            <option value="Ontario">Ontario</option>
+            <option value="Prince Edward Islands">Prince Edward Islands</option>
+			<option value="Quebec">Quebec</option>
+            <option value="Saskatchewan">Saskatchewan</option>
+            <option value="Northwest territories">Northwest territories</option>
+            <option value="Nunavut">Nunavut</option>
+			<option value="Yukon">Yukon</option>
+		</select><br />
+		Web Page URL:<input class="gu5" type="text" size="60" name="web_url" id="web_url" /><br />
+		Web Page Title:<input class="gu6" type="text" size="25" name="web_title" id="web_title" /><br />
+		Comments:<textarea class="gu7" rows="5" cols="15"></textarea><br />
+		<input type="submit" value="sign guest book" /><br />
+		<input type="reset"  value="start over" /><br />
+		
+			
+	</form>
+	
+	
+	
+	<div id="viewguests">
+    <iframe src="https://zenit.senecac.on.ca/~emile.ohan/cgi-bin/viewguestbook.cgi"></iframe>
+ </div>
+
+  <footer>
+  <div class="divi3">
+    <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+     </script>
+    </div>
+	</footer>
+  
+  
+  
+  
+ </body>
+</html>

@@ -1,0 +1,127 @@
+.h1{
+	color: #196619;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #00ff00;
+}
+
+.divi{
+	float : left;
+	width :75%;
+	background-color: gray;
+	
+}
+
+.p1{
+	background-color:white;
+	
+	
+}
+
+.divi2{
+	float : left;
+	width :25%;
+	background-color: gray;
+
+}
+
+.divi3{
+	clear:both;
+	background-color: black;
+	color:white;
+	text-align:center;
+
+}
+
+.divimg{
+	position: relative; background: url('social-media.png') no-repeat; width: 250px; height: 140px;
+}
+
+.img{
+	width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 4px;
+}
+
+.img2{
+	width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 30px;
+}
+.img3{
+	width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 60px;
+}
+
+.img4{
+	width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 90px;
+}
+
+.img5{
+	width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 150px;
+}
+
+.narr{
+	float:left; width:70%;
+}
+
+.narr2{
+	float:right;
+}
+
+.narrimg{
+	width:150px; height:150px;
+}
+
+.video{
+	width:400px;
+}
+
+.table{
+	border:1px solid black;
+	text-align:center;
+	width:70%;
+	border-collapse:separate;
+	border-spacing:15px;
+	
+	margin:20px;
+	margin-left:80px;
+	border-spacing:15px;
+	
+
+}
+
+.td{
+	border:1px solid black;
+	padding: 5px 5px 5px 5px;
+	background-color: #33cc33;
+	
+	
+
+}
+
+.tdiv{
+	border:1px solid black;
+	
+
+}
+
+.fig{
+	text-align:center;
+}
