@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+     <title>INT222_161e01 - assign2</title>
+    <link rel="stylesheet" href="css/normalize.css"   type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="css/sitecss.css"     type="text/css" media="screen" />
+  </head>
+ <body>
+	<ul>
+  <li><a href="https://zenit.senecac.on.ca/~int222_161e01/">My Zenit Account</a></li>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="gallery.html">Photo gallery</a></li>
+  <li><a href="video.html">Video</a></li>
+  <li><a href="audio.html">Audio</a></li>
+  <li><a href="html5.html">HTML5</a></li>
+  <li><a href="tables.html">Tables With CSS</a></li>
+  <li><a href="guestbook/index.html">Guestbook</a></li>
+  <li><a href="css/sitecss.css"> CSS used</a></li>
+  <li><a href="extra/index.html">Extra</a></li>
+  </ul>
+  
+   <!-- First main div--><div class="divi">
+	<h1 class="h1"> Audio </h1>
+	<fieldset class="p1">
+	<h2> Audio implementation in HTML5</h2>
+	<p> This is classic piece of music which is downloaded
+	    from Orchestral ConcertCDs site.</p>
+	</fieldset>
+   
+    <fieldset class="p1">
+	<h2> Classic music</h2>
+	<figure>
+    <audio controls="controls">
+     <source src="misc/Track08.mp3" type="audio/mp3" />
+    </audio>
+	<script>
+                   var audio = document.getElementsByTagName('audio')[0];
+                </script> 
+    </figure>
+	</fieldset>
+   
+   
+   </div>
+   
+   
+   <!--Second Main div--> <div class="divi2">
+	<div class="divimg" id="special">
+     <img src="images/social-media.png" alt="" />
+	 <a class="img" href="https://www.facebook.com/" title="Facebook"> </a>
+	 <a class="img2" href="https://vine.co/" title="Twitter"> </a>
+	 <a class="img3" href="https://www.pinterest.com/" title="Pinterest"> </a>
+	 <a class="img4" href="https://plus.google.com/" title="Google+"> </a>
+	 <a class="img5" href="https://www.linkedin.com/" title="LINKEDIN"> </a>
+     </div>
+	 
+	<h2><u>Audio control Options</u></h2>
+	<fieldset class="p1">
+	<button type="button" onclick="audio.play();">Play</button><br />
+	<button type="button" onclick="audio.pause();">Pause</button><br />
+	<button type="button" onclick="audio.volume=1;">Volume On</button><br />
+	<button type="button"  onclick="audio.volume=0;">Volume Off</button><br />
+	<button type="button" onclick="audio.volume+=0.1;">Increase Volume</button><br />
+	<button type="button" onclick="audio.volume-=0.1;">Decrease Volume</button><br />
+	</fieldset>
+   
+   
+   
+   
+   </div>
+   
+   
+   <div class="divi3">
+    <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+     </script>
+    </div>
+   
+ </body>
+</html>
